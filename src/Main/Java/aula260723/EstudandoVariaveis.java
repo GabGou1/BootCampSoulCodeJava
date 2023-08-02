@@ -1,4 +1,4 @@
-package Main.Java;
+package Main.Java.aula260723;
     // Variável = container de dados
     // tipagem forte = definir o tipo de cada variável
 public class EstudandoVariaveis {

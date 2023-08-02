@@ -1,4 +1,4 @@
-package Main.Java;
+package Main.Java.aula260723;
 import java.util.Scanner;
 
 public class EstudoEstruturas {

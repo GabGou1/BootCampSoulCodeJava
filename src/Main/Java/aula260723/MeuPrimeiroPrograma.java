@@ -1,4 +1,4 @@
-package Main.Java;
+package Main.Java.aula260723;
 
 /*
 * Um programa Main.Java, deve ter o nome bem definido. Seguindo o PascalCate

@@ -1,4 +1,4 @@
-package Main.Java;
+package Main.Java.aula260723;
 
 public class EstudoOperadores {
     public static void main (String [] args){

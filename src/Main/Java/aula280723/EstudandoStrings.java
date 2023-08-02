@@ -1,4 +1,4 @@
-package Main.Java;
+package Main.Java.aula280723;
 import java.util.Scanner;
 
 public class EstudandoStrings {
