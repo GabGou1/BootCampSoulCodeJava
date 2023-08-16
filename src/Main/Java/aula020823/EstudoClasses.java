@@ -1,7 +1,5 @@
 package Main.Java.aula020823;
 
-import java.util.Locale;
-
 public class EstudoClasses {
     public static void main(String[] args) {
         // POO (Programação Orientada a Objeto)
