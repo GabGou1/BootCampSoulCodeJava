@@ -1,15 +1,12 @@
 package Main.Java.aula150823.atividade.notificações;
 
-import java.time.LocalDate;
-
-public class SMSNotificacao extends Notificavel{
+public class SMSNotificacao implements Notificavel{
     private Integer numEmissor;
     private Integer numRemetente;
 
     public SMSNotificacao() {
     }
-    public SMSNotificacao(LocalDate data, Verificado verificado, Integer numEmissor, Integer numRemetente) {
-        super(data, verificado);
+    public SMSNotificacao(Integer numEmissor, Integer numRemetente) {
         this.numEmissor = numEmissor;
         this.numRemetente = numRemetente;
     }

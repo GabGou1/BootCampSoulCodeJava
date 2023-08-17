@@ -1,6 +1,6 @@
 package Main.Java.aula150823.atividade.pagamento;
 
-public class FormaPagamento {
+public abstract class FormaPagamento {
     enum Status{
         PAGO,
         PENDENTE,

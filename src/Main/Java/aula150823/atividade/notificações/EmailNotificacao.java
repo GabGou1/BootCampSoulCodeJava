@@ -1,15 +1,12 @@
 package Main.Java.aula150823.atividade.notificações;
 
-import java.time.LocalDate;
-
-public class EmailNotificacao extends Notificavel{
+public class EmailNotificacao implements Notificavel{
     private String emissor;
     private String remetente;
 
     public EmailNotificacao() {
     }
-    public EmailNotificacao(LocalDate data, Verificado verificado, String emissor, String remetente) {
-        super(data, verificado);
+    public EmailNotificacao(String emissor, String remetente) {
         this.emissor = emissor;
         this.remetente = remetente;
     }
